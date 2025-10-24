@@ -1735,7 +1735,7 @@ void ReceiveSecretBasesData(void *secretBases, size_t recordSize, u8 linkIdx)
     if (linkIdx > 3)
         return;
 
-    if (FlagGet(FLAG_RECEIVED_SECRET_POWER))
+    if (FlagGet(FLAG_RECEIVED_SMART_STRIKE))
     {
         switch (GetLinkPlayerCount())
         {

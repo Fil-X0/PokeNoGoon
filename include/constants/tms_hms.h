@@ -41,9 +41,6 @@
     F(AERIAL_ACE) \
     F(U_TURN) \
     F(ROCK_TOMB) \
-    F(AERIAL_ACE) \
-    F(U_TURN) \
-    F(ROCK_TOMB) \
     F(DUAL_WINGBEAT) \
     F(FEINT_ATTACK) \
     F(FACADE) \

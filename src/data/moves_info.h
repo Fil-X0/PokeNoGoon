@@ -8884,7 +8884,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Dragon Claw"),
         .description = COMPOUND_STRING(
             "Slashes the foe with sharp\n"
-            "claws."),
+            "claws. May lower defense."),
         .effect = EFFECT_HIT,
         .power = 80,
         .type = TYPE_DRAGON,

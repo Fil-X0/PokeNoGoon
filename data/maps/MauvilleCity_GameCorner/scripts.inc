@@ -212,7 +212,7 @@ MauvilleCity_GameCorner_EventScript_CancelDollSelect::
 	release
 	end
 
-MauvilleCity_GameCorner_EventScript_PrizeCornerTMs::
+/*MauvilleCity_GameCorner_EventScript_PrizeCornerTMs::
 	lock
 	faceplayer
 	msgbox MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes, MSGBOX_DEFAULT
@@ -350,9 +350,9 @@ MauvilleCity_GameCorner_EventScript_BuyTMIceBeam::
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
-	end
+	end*/
 
-MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM::
+/*MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM::
 	msgbox MauvilleCity_GameCorner_Text_NotEnoughCoins, MSGBOX_DEFAULT
 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
@@ -366,7 +366,7 @@ MauvilleCity_GameCorner_EventScript_CancelTMSelect::
 	msgbox MauvilleCity_GameCorner_Text_OhIsThatSo, MSGBOX_DEFAULT
 	hidecoinsbox 0, 0
 	release
-	end
+	end*/
 
 MauvilleCity_GameCorner_EventScript_Woman2::
 	msgbox MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay, MSGBOX_NPC
