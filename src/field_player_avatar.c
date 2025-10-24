@@ -166,7 +166,7 @@ static bool32 Fishing_NoMon(struct Task *);
 static bool32 Fishing_PutRodAway(struct Task *);
 static bool32 Fishing_EndNoMon(struct Task *);
 static void AlignFishingAnimationFrames(void);
-static bool32 DoesFishingMinigameAllowCancel(void);
+/*static bool32 DoesFishingMinigameAllowCancel(void);*/
 static bool32 Fishing_DoesFirstMonInPartyHaveSuctionCupsOrStickyHold(void);
 static bool32 Fishing_RollForBite(u32, bool32);
 static u32 CalculateFishingBiteOdds(u32, bool32);
@@ -2172,11 +2172,11 @@ static bool32 Fishing_ChangeMinigame(struct Task *task)
 // We have a bite. Now, wait for the player to press A, or the timer to expire.
 static bool32 Fishing_WaitForA(struct Task *task)
 {
-    const s16 reelTimeouts[3] = {
+    /*const s16 reelTimeouts[3] = {
         [OLD_ROD]   = 36,
         [GOOD_ROD]  = 33,
         [SUPER_ROD] = 30
-    };
+    };*/
 
     AlignFishingAnimationFrames();
     task->tFrameCounter++;
@@ -2196,12 +2196,12 @@ static bool32 Fishing_APressNoMinigame(struct Task *task)
 // Determine if we're going to play the dot game again
 static bool32 Fishing_CheckMoreDots(struct Task *task)
 {
-    const s16 moreDotsChance[][2] =
+    /*const s16 moreDotsChance[][2] =
     {
         [OLD_ROD]   = {0, 0},
         [GOOD_ROD]  = {40, 10},
         [SUPER_ROD] = {70, 30}
-    };
+    };*/
 
     AlignFishingAnimationFrames();
     task->tStep = FISHING_MON_ON_HOOK;
@@ -2328,7 +2328,7 @@ static bool32 Fishing_EndNoMon(struct Task *task)
     return FALSE;
 }
 
-static bool32 DoesFishingMinigameAllowCancel(void)
+/*static bool32 DoesFishingMinigameAllowCancel(void)
 {
     switch(I_FISHING_MINIGAME)
     {
@@ -2339,7 +2339,7 @@ static bool32 DoesFishingMinigameAllowCancel(void)
         default:
             return TRUE;
     }
-}
+}*/
 
 static bool32 Fishing_DoesFirstMonInPartyHaveSuctionCupsOrStickyHold(void)
 {
