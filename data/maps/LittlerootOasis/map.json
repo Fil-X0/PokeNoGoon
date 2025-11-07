@@ -1,0 +1,26 @@
+{
+  "id": "MAP_LITTLEROOT_OASIS",
+  "name": "LittlerootOasis",
+  "layout": "LAYOUT_LITTLEROOT_OASIS",
+  "music": "MUS_LITTLEROOT",
+  "region_map_section": "MAPSEC_LITTLEROOT_OASIS",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY_CLOUDS",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_LITTLEROOT_TOWN",
+      "offset": 0,
+      "direction": "left"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}
